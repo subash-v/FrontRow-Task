@@ -1,0 +1,41 @@
+.base {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.container {
+  width: 100%;
+  padding: 0px 20px;
+  background-color: #fff;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.holder {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.logoHolder {
+  display: flex;
+  align-items: center;
+  margin-top: -2px;
+}
+.logoTextContainer {
+  width: 100%;
+  margin-left: 8px;
+}
+.logoText {
+  color: #111;
+  font-weight: 700;
+}
+.logoTagLine {
+  display: block;
+  font-size: 13px;
+  color: #111;
+  font-weight: 500;
+}
+.searchBarContainer {
+  width: 500px;
+  margin-left: 18px;
+}
